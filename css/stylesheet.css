@@ -1,0 +1,522 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main-container{
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.nav-bar{
+    position: fixed;
+    z-index: 1;
+    color: white;
+    height: 55px;
+    width: 100%;
+    background-color: #3498db;
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.heading{
+    font-size: 3em;
+    display: inline-block;
+    margin-left: 5px;
+}
+.nav-logo{
+    display: inline-block;
+    position: relative;
+    left: 5px;
+}
+.head-wrap{
+    height: 55px;
+    display: inline-block;
+    margin-left: 8px;
+}
+.links{
+    float: right;
+    position: relative;
+    top: 6px;
+    margin-right: 10px;
+}
+.nav-link{
+    color: white;
+    padding: 12px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-link:hover{
+    border-radius: 5px;
+    background-color: rgb(89, 170, 225);
+}
+.button{
+    text-decoration: none;
+    color: #3498db;
+    margin-top: 10px;
+    background-color: transparent;
+    display: inline-block;
+    padding: 8px 30px;
+    font-weight: bold;
+    border: 2px solid #3498db;
+}
+.button:hover{
+    background-color: #3498db;
+    color: white;
+}
+.container-1{
+    min-height: 700px;
+    width: 100%;
+}
+.pic{
+    position: relative;
+    top: 55px;
+    height: 600px;
+    width: 100%;
+    background-image: url("../pics/pic3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.passage{
+    display: inline-block;
+}
+.pass-1{
+    font-size: 200%;
+}
+.pass-2{
+    font-size: 300%;
+    font-weight: bold;
+}
+.empty{
+    display: inline-block;    
+    height: auto;
+    width: 40%;
+    position: relative;
+    top: 250px;    
+}
+.pass-button{
+    display: inline-block;
+    height: auto;
+    width: 50%;
+    position: relative;
+    top: 250px;
+}
+.container-2{
+    min-height: 500px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#about{
+    font-size: 2.8em;
+}
+.underline{
+    margin: 0px auto 0px auto;
+    background-color: #3498db;
+    height: 4px;
+    border-radius: 20px;
+    width: 70px;
+}
+.info{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: "PoppinsRegular",sans-serif;
+    max-width: 50%;
+    margin-top: 35px;
+}
+.info1{
+    position: relative;
+    top: 40px;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: "PoppinsRegular",sans-serif;
+    max-width: 93%;
+    margin-top: 35px;
+}
+.card{
+    display: inline-block;
+    padding: 10px;
+    min-height: 360px;
+    max-height: auto;
+    margin: 50px auto 0px auto;
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
+    font-family: "PoppinsRegular",sans-serif;
+}
+.card1{
+    max-width: 566px;
+}
+.card2{
+    min-width: 566px;
+}
+.card-head{
+    font-size: 1.5em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.sub-head{
+    display: block;
+    float: left;
+}
+.sub-passage{
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 4px;
+}
+.head-color{
+    font-weight: bold;
+    color: #3498db;
+}
+.bold{
+    font-weight: bold;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+}
+.inner-card{
+    height: auto;
+    width: 95%;
+    margin: 0px auto;
+}
+.progress{
+    display: flex;
+    height: auto;
+    width: 100%;
+    padding: 10px 0px;
+    padding-bottom: 20px;
+}
+.progress-bar-container{
+    height: 8px;
+    min-width: 470px;
+    display: inline-block;
+}
+.progress-bar{
+    margin-top: 45px;
+    height: 8px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(216, 215, 215);
+}
+.color-progress-bar{
+    background-color: #3498db;
+    height: 8px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.container-3{
+    min-height: auto;
+    width: 100%;
+    text-align: center;
+}
+.pic1{
+    min-height: 600px;
+    width: 100%;
+    background-image: url("../pics/pic4.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mywork,#contact,.work{
+    font-size: 2.8em;
+    padding: 50px 0px 0px 0px;
+}
+.overlay{
+    min-height: 650px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.bloodBank{
+    display: inline-block;
+    height: 160px;
+    width: 300px;
+    background-image: url("../pics/BB.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.ngo{
+    display: inline-block;
+    height: 160px;
+    width: 300px;
+    background-image: url("../pics/ngo.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.news{
+    display: inline-block;
+    height: 160px;
+    width: 300px;
+    background-image: url("../pics/newsapi.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.card-container1{
+    height: auto;
+    width: 90%;
+    margin:auto;
+    position: relative;
+    top: 20px;
+    margin-top: 40px;
+}
+.overlap{
+    height: 100%;
+    width: 100%;
+}
+.overlap:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.card-link{
+    font-family: "PoppinsRegular",sans-serif;
+    font-size: 1.7em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 58px 116px;
+    color: transparent;
+}
+.card-link:hover{
+    color: white;
+}
+.linkContain{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    margin-top: 35px;
+}
+.nextLink{
+    color: white;
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #3498db;
+}
+.nextLink:hover{
+    background-color: rgb(89, 170, 225);
+    color: white;
+}
+.container-4{
+    min-height: 1000px;
+    width: 100%;
+    text-align: center;
+}
+.form-wrap1{
+    width: 94%;
+    margin: 0px auto;
+}
+.form-wrap{
+    height: 450px;
+    max-width: 740px;
+    margin: 50px auto 0px auto;
+}
+.text{
+    font-family: "PoppinsRegular";
+    box-sizing: border-box;
+    outline: 0;
+    color: lightgray;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid gray;
+    line-height: normal;
+    padding: 1em 1em 0.5em 1em;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    transition: all 0.30s ease-in-out;
+    box-shadow: none;
+
+}
+.text:focus{
+    border-bottom: 2px solid #3498db;
+}
+.textarea1{
+    font-family: "PoppinsRegular";
+    box-sizing: border-box;
+    outline: 0;
+    display: block;
+    width: 100%;
+    border: none;        
+    border-bottom: 2px solid gray;
+    height: 200px;
+    padding: 0.5em 1em 0.4em 1em;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    transition: all 0.30s ease-in-out;
+    box-shadow: none;
+}
+.textarea1:focus{
+    border-bottom: 2px solid #3498db;
+}
+.send{
+    text-align: center;
+    font-family: "PoppinsRegular";
+    float: right;
+    text-decoration: none;
+    background-color: rgb(89, 170, 225);
+    color: white;
+    padding: 9px 35px;
+    font-weight: normal;
+}
+.send:hover{
+    background-color: #3498db;
+}
+i{
+    margin-right: 5px;
+}
+.contact-wrap{
+    min-height: 290px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+}
+.email-icon,.call-icon{
+    margin-top: 10px;
+}
+.info-1{
+    margin: 0px auto;
+    font-size: 1.3rem;
+    font-family: "PoppinsRegular",sans-serif;
+    max-width: 95%;
+}
+.social{
+    padding-bottom: 15px;
+    margin: 15px 0px;
+}
+.social-icon{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    min-height: 50px;
+    width: 100%;
+    font-family: "PoppinsRegular";
+    color: white;
+    background-color: #3498db;
+    text-align: center;
+}
+.design{
+    padding-top: 15px;
+}
+
+/* Media Queries */
+@media screen and (max-width:524px){
+    .nav-link{
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 12px 0px;
+        text-align: center;
+    }
+    .nav-bar{
+        box-shadow: none;
+    }
+    .head-wrap{
+        text-align: center;
+        display: block;
+        margin: 0px auto;
+    }
+    .links{
+        display: block;
+        width: 100%;
+        top: -1px;
+        z-index: 1;
+        background-color: #3498db;
+        margin-right: 0px;
+    }
+    .heading{
+        display: inline-block;
+        text-align: center;
+    }
+    .nav-bar{
+        position: static;
+    }
+    .container-1{
+        margin-top: 71px;
+    }
+    .pass-1{
+        font-size: 150%;
+    }
+    .pass-2{
+        font-size: 240%;
+    }
+    .pass-button{
+        top:180px;
+        width: 68%;
+    }
+    #about,#mywork,#contact,.work{
+        font-size: 2.2em;
+    }
+    .info{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:360px){
+     .empty{
+        display: none;
+    } 
+    .pass-button{
+        margin-left: 20px;
+        top: 150px;
+    }
+    .info-1{
+        font-size: 1.1em;
+    }
+    
+}
+@media screen and (max-width:735px){
+    .card{
+        min-width: 80%;
+    }
+    .progress{
+        padding-bottom: 30px;
+    }
+    .card1{
+        max-width: 42%;
+    }
+    .card-container1{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:735px){
+    .pic1,.overlay{
+        min-height: 1000px;
+    } 
+}
+
+@media screen and (max-width:526px){
+    .empty{
+        width: 28%;
+    }
+}
+@media screen and (max-width:1095px){
+    .myweb,.engage{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 735px) and (max-width:1095px){
+    .pic1,.overlay{
+        min-height: 800px;
+    }
+
+}
+@media screen and (max-width:450px){
+    .myweb,.engage,.facebook{
+        max-width: 100%;
+        height: auto;
+        margin-right: 0px;
+    }
+    .card-link{
+        padding: 20% 38%;
+    }
+    .info,.info1{
+        max-width: 93%;
+    }
+}
+
