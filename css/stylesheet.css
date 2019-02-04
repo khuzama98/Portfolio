@@ -389,7 +389,7 @@ i{
     margin: 15px 0px;
 }
 .social-icon{
-    margin-right: 20px;
+    margin-right: 10px;
     text-decoration: none;
     color: black;
 }
@@ -496,7 +496,7 @@ i{
     }
 }
 @media screen and (max-width:1095px){
-    .myweb,.engage{
+    .bloodBank,.ngo{
         margin-bottom: 20px;
     }
 }
@@ -507,7 +507,7 @@ i{
 
 }
 @media screen and (max-width:450px){
-    .myweb,.engage,.facebook{
+    .bloodBank,.ngo,.news{
         max-width: 100%;
         height: auto;
         margin-right: 0px;
